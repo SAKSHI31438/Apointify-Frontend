@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import heroImg from "../assets/customerImg/hero.avif";
 
 const HeroSection = () => {
   return (
     <section className="min-h-screen w-full relative flex items-center overflow-hidden">
       <img
-        src="/src/assets/customerImg/hero.avif"
+        src={heroImg}
         alt=""
         className="absolute inset-0 w-full h-screen object-cover"
       />
