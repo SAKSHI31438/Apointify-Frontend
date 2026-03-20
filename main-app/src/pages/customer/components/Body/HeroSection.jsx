@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="min-h-screen w-full relative flex items-center overflow-hidden">
       <img
-        src="/src/pages/customer/assets/images/Body/hero.avif"
+        src="/src/assets/customerImg/hero.avif"
         alt=""
         className="absolute inset-0 w-full h-screen object-cover"
       />
